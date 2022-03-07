@@ -1,3 +1,5 @@
+var searchForm = document.querySelector('#search-form')
+
 fetch('htt[s://www.loc.gov/collections/civil-war-maps?fo=json')
   .then(function (response){
     return response.json();
@@ -18,10 +20,14 @@ fetch('htt[s://www.loc.gov/collections/civil-war-maps?fo=json')
   })
 
   // placeholder JS, will update query selector fetch and what data is pulled when future functions are in place
+
   
   // getting value for selected drop down
   var selectEl = document.getElementById('drop-down');
   var value = select.options[select.selectedIndex].value;
 
   $('#drop-down').val();
+
+
+searchForm.addEventListener('submit', formSubmitHandler)
 
