@@ -1,0 +1,15 @@
+main {
+  background-color: aqua;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+  display: flex;
+  margin-right: 70em;
+  padding: 20px;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+}
+
+/* TODO: space between form options, center w/ title above, bigger text input bar, 
+submit button below drop down */
