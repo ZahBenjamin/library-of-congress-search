@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Search Results</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <main id="search-results"></main>
+    <aside>
+      <form id="search-form">
+        <input type="text" id="input-txt" />
+        <button type="submit" id="submit-btn">Search</button>
+        <button type="reset" id="back-btn">Go Back</button>
+        <select name="Select a format ...">
+          <option value="all">All Results</option>
+          <option value="Photos">Photos</option>
+          <option value="Maps">Maps</option>
+          <option value="Film and Videos">Film and Videos</option>
+          <option value="Music">Music</option>
+        </select>
+      </form>
+    </aside>
     <script href="./script.js"></script>
-</body>
+  </body>
 </html>
